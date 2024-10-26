@@ -1,0 +1,93 @@
+body {
+    margin: 0; /* Removes default margin and padding applied by your browser */
+    padding: 0;
+    
+}
+
+Header {
+    display: flex; /* Tells header it is a flex container */
+    justify-content: space-evenly; /* Evenly spaces the shild elements insode the container */
+    align-items: center; /* Vertically center the child elements inside the container */
+    background-color: #1B9889; 
+    color: whitesmoke; /* text color*/
+    padding: 20px; /* padding INSIDE the header to create space around the content*/
+    width: 100%; /* Makes sure the header spans the entire width of the screen */
+    margin: 0 auto; /* Centers the header horizontally on the page*/
+    box-shadow: 0px 4px 6px rgba(0,0, 0.2); /* adds a slight shadow below the header to give it deapth*/
+    flex-wrap: wrap; /* makes sure that the child elements wrap onto a new line if there isn't enough space*/
+
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B9889;
+    
+}
+#greeting {
+    font-family: monospace;
+}
+header img {
+    border-radius: 120px; /* round the corners of the element*/
+    box-shadow: 0px 4px 6px rgba(0,0, 0.2);
+    height: auto; /* maintains image's aspect ration while resizing*/
+    object-fit: cover; /*crops the image without distorting*/
+}
+.img {
+    
+}
+.intro {
+    max-width: 500px; /*limits the width for a better readability*/
+    text-align: center; /*aligns text horizontally*/
+}
+/*styling for main*/
+main {
+    display: flex; /* tells main that it is in a container*/
+    flex-direction: column; /* Stacks child elements (sections) vertically in a column*/
+    align-items: center; /*Align child elements horizontally and center */
+    padding: 50px; /*adds padding around the main content for better spacing*/
+    border: 3px solid black;
+    margin: 40px;
+}
+/*Styling for the section element*/
+section {
+    background-color: #f9f9f9; /*background color for each section*/
+    border-radius: 8px; /*adds rounded corners to section*/
+    box-shadow: 0px 4px 8px rgba(0,0, 0.4); /*box shadow making it "float"*/
+    padding: 20px; /*adds space INSIDE  each section 'card"*/
+    margin-bottom: 20px; /*adds space at the BOTTOM of each "card"*/
+    width: 100%; /*makes it take up the width of the MAIN container*/
+    max-width: 800px; /*limits the width to a MAX of 800px*/
+
+}
+li {
+    margin-bottom: 10px; /*add space between each list item*/
+}
+.name {
+    text-align: center;
+}
+
+/*.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1B9889;
+    color: whitesmoke;
+}
+*/
+footer {
+    background-color: #cbf6e9;
+    height: 100px;
+    font-size: medium;
+    padding: 50px;
+    margin: 50px;
+    border: 3px solid black;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+}
